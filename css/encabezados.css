@@ -1,0 +1,13 @@
+.encabezado_mapa{
+    text-align: center;
+}
+
+
+
+@media  (max-width: 1000px) {
+    .encabezado_mapa{
+        margin-top: 1200px;
+    }
+
+    
+}

@@ -1,0 +1,25 @@
+.label_negro{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.label_cafe{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+}
+
+
+.label_blanco{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+}
