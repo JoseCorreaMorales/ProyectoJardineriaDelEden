@@ -120,20 +120,20 @@
 
 
   <!-- CONTACTO -->
-  <h1 class="encabezado_mapa" style="text-align: center;" id="contactanos">Contactanos</h1>
+  <h1 class="title" id="contactanos">Contactanos</h1>
 
   <div class="container_form">
-    <form action="jose.c00rrea.morales@gmail.com">
+    <form action="">
 
       <label for="fname">Nombre</label>
-      <input type="text" id="fname" name="firstname" placeholder="Tu nombre...">
+      <input type="text" id="fname" name="firstname" placeholder="Tu nombre..." required>
 
       <label for="lname">Apellido</label>
-      <input type="text" id="lname" name="lastname" placeholder="Tu apellido...">
+      <input type="text" id="lname" name="lastname" placeholder="Tu apellido..." required>
 
 
       <label for="subject">Mensaje</label>
-      <textarea id="subject" name="subject" placeholder="Escribe algo...." style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Escribe algo...." class="form__txtarea" required></textarea>
 
       <input type="submit" value="Enviar">
 

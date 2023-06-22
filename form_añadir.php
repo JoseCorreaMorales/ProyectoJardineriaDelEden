@@ -9,6 +9,7 @@
 	<meta name="author" content="Josue Gonzalez, Jose Correa, Jose Palacios, Sistemas">
     <link rel="stylesheet" href="css/crud.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/main.css">
      <link rel="shortcut icon" href="img/favicon.ico">
     <title>Añadir</title>
 
@@ -157,7 +158,7 @@
     </div>
     <script src="js/validar.js"></script>
     <script >
-  function confirmation() 
+  function confirmation() {
     if (confirm("¿Realmente desea eliminar el registro?")) {
       return true;
     }
