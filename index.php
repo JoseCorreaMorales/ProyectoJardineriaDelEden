@@ -5,9 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sistemas computacionales">
-  <meta name="keywords" content="MySql, Conexión, Wamp">
-  <meta name="author" content="Josue Gonzalez, Jose Correa, Jose Palacios, Sistemas">
   <link rel="shortcut icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/main.css">
   <title>Jardinderia del Edén</title>
@@ -123,17 +120,17 @@
   <h1 class="title" id="contactanos">Contactanos</h1>
 
   <div class="container_form">
-    <form action="">
+    <form action="php/email.php">
 
-      <label for="fname">Nombre</label>
-      <input type="text" id="fname" name="firstname" placeholder="Tu nombre..." required>
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Tu nombre..." required>
 
-      <label for="lname">Apellido</label>
-      <input type="text" id="lname" name="lastname" placeholder="Tu apellido..." required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Tu email..." required>
 
 
-      <label for="subject">Mensaje</label>
-      <textarea id="subject" name="subject" placeholder="Escribe algo...." class="form__txtarea" required></textarea>
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" placeholder="Escribe algo...." class="form__txtarea" required></textarea>
 
       <input type="submit" value="Enviar">
 

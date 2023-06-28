@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="css/footer_estaticos_body.css">
-
 
 <footer>
         <div class="section_footer">
