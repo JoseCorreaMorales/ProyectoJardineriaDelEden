@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <link rel="stylesheet" href="css/crud.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>Añadir</title>
 
@@ -189,20 +190,7 @@
         </div>
         <!-- ---------------------------------------- -->
 
-        <div id="footer">
-            <h2 style="border-bottom: 3px solid black;"> Proyecto Jardinería del Edén </h2>
-            <ol>
-                <li>
-                    <p>Jose Correa Morales </p>
-                </li>
-                <li>
-                    <p>Jose Octavio Palacio Flores</p>
-                </li>
-                <li>
-                    <p>Josue Guadalupe González Colin</p>
-                </li>
-            </ol>
-        </div>
+        <?php include_once("./php/footer.php");  ?>
 
     </div><!-- container -->
     <script src="js/validar.js"></script>

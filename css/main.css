@@ -222,6 +222,10 @@ body {
   height: auto;
 }
 
+.img_tarjeta img {
+  border-radius: 3.5rem;
+}
+
 .btn_tarjetas {
   width: 100%;
   padding: 10px;

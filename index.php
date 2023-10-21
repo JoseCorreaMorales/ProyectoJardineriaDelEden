@@ -106,7 +106,7 @@
 
     <div class="tarjeta">
       <div class="contenido_tarjeta">
-        <div class="img_tarjeta"><img src="https://ecoosfera.com/wp-content/imagenes/2018/08/055ba64548f38e8f38df7dbf7c837998.jpg" alt="" height="160px"></div>
+        <div class="img_tarjeta"><img src="./img/headphones-2595259_128.jpg" alt="" height="160px"></div>
         <h2>Sobre la música y la naturaleza</h2>
         <p>Esperalo, ¡Muy pronto!</p>
         <button class="btn_tarjetas">Leer</button>
